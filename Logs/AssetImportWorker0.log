@@ -1,0 +1,2397 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.0f1 (c7b5465681fb) revision 13088070'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home Single Language; OS build 19041.867; Version 2004; 64bit' Language: 'en' Physical Memory: 16228 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+D:\Unity Editor\2020.3.0f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Studies/BINUS/GAME DESIGN/FP-GameDesign
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50295
+Successfully changed project path to: D:/Studies/BINUS/GAME DESIGN/FP-GameDesign
+D:/Studies/BINUS/GAME DESIGN/FP-GameDesign
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 41.58 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.0f1 (c7b5465681fb)
+[Subsystems] Discovering subsystems at path D:/Unity Editor/2020.3.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Studies/BINUS/GAME DESIGN/FP-GameDesign/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 Ti (ID=0x2191)
+    Vendor:   
+    VRAM:     5991 MB
+    Driver:   25.21.14.1777
+Initialize mono
+Mono path[0] = 'D:/Unity Editor/2020.3.0f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity Editor/2020.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Unity Editor/2020.3.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56432
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity Editor/2020.3.0f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Unity Editor/2020.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001193 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 48.03 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.871 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000867 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.907 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1700 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 79.9 MB.
+System memory in use after: 77.6 MB.
+
+Unloading 55 unused Assets to reduce memory usage. Loaded Objects now: 2105.
+Total: 2.789700 ms (FindLiveObjects: 0.193300 ms CreateObjectMapping: 0.092800 ms MarkObjects: 1.769300 ms  DeleteObjects: 0.733000 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_03.gif
+  artifactKey: Guid(66340dd2d4ffe5f49be54cd594fa08cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_03.gif using Guid(66340dd2d4ffe5f49be54cd594fa08cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7202cf4fc092bd5be291808d5a01a4c0') in 0.132074 seconds
+  Import took 0.134750 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_02.png
+  artifactKey: Guid(da119f0542145c54990e7e7340bf1c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_02.png using Guid(da119f0542145c54990e7e7340bf1c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53f893728159893afe7d0f6b9c94f2fc') in 0.012487 seconds
+  Import took 0.015132 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_01.png
+  artifactKey: Guid(59f666b653fbc1043b8e9600730bf8b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_01.png using Guid(59f666b653fbc1043b8e9600730bf8b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c7cd9712e43264821c7c553daeb5ec2') in 0.010607 seconds
+  Import took 0.013384 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1035.778271 seconds.
+  path: Assets/Game Assets/artwork/Tiles
+  artifactKey: Guid(0a5843d5e2094174db6b17414cae4289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Tiles using Guid(0a5843d5e2094174db6b17414cae4289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84f4c3fb32bd1de5f6693531eaddec7e') in 0.005775 seconds
+  Import took 0.008804 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001025 seconds.
+  path: Assets/Game Assets/artwork/Tiles
+  artifactKey: Guid(0a5843d5e2094174db6b17414cae4289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Tiles using Guid(0a5843d5e2094174db6b17414cae4289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84f4c3fb32bd1de5f6693531eaddec7e') in 0.001873 seconds
+  Import took 0.004385 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.034799 seconds.
+  path: Assets/Game Assets/artwork/Tiles/back_0.asset
+  artifactKey: Guid(dfa907775fb821c4ab0cb6a0e7766948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Tiles/back_0.asset using Guid(dfa907775fb821c4ab0cb6a0e7766948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c699c1f4d675806b7d48abb7461e6e7d') in 0.042699 seconds
+  Import took 0.045318 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/Game Assets/artwork/Tiles/back_43.asset
+  artifactKey: Guid(5bdda9ad055606443996c1ff93f8fecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Tiles/back_43.asset using Guid(5bdda9ad055606443996c1ff93f8fecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee2ff4bd9714ce85d9e52076fa64832c') in 0.008418 seconds
+  Import took 0.010931 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/Game Assets/artwork/Tiles/back_48.asset
+  artifactKey: Guid(b1f7a735c1a0a754a999e51bfce5eb6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Tiles/back_48.asset using Guid(b1f7a735c1a0a754a999e51bfce5eb6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d02375b14f980fd5290b40695bde905') in 0.012443 seconds
+  Import took 0.014995 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Game Assets/artwork/Tiles/back_50.asset
+  artifactKey: Guid(cf8d31b4635c3164f8302f2a8dc54673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Tiles/back_50.asset using Guid(cf8d31b4635c3164f8302f2a8dc54673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c02700b365bcdb11e1170d01133846f') in 0.008520 seconds
+  Import took 0.011069 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Game Assets/artwork/Tiles/back_69.asset
+  artifactKey: Guid(7261ad0d9ba19424aa6ece305582e75a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Tiles/back_69.asset using Guid(7261ad0d9ba19424aa6ece305582e75a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '020c16229b682602e04c27158a533982') in 0.008907 seconds
+  Import took 0.011485 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/Game Assets/artwork/Tiles/back_55.asset
+  artifactKey: Guid(8fc05e7c1e4d0d541a7648cadcccd9d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Tiles/back_55.asset using Guid(8fc05e7c1e4d0d541a7648cadcccd9d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aad68e8d93c75f5e8894594a7d26e37d') in 0.008458 seconds
+  Import took 0.011529 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/Game Assets/artwork/Tiles/back_27.asset
+  artifactKey: Guid(7a465565bbb93bb48a6cf94ec5f28196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Tiles/back_27.asset using Guid(7a465565bbb93bb48a6cf94ec5f28196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c3f4c2ca1dd74aaaa284e15022abdea') in 0.008640 seconds
+  Import took 0.011150 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Game Assets/artwork/Tiles/back_67.asset
+  artifactKey: Guid(48f2c7ac4f95a524b8db76748f9a4987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Tiles/back_67.asset using Guid(48f2c7ac4f95a524b8db76748f9a4987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa846b191909d2500cb0f98125af63e6') in 0.007988 seconds
+  Import took 0.010399 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000368 seconds.
+  path: Assets/Game Assets/artwork/Tiles/back_14.asset
+  artifactKey: Guid(630eee34805d1f042bd36ff3d7f2fae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Tiles/back_14.asset using Guid(630eee34805d1f042bd36ff3d7f2fae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6ee17d013bdd745a59c083c1bd1756c') in 0.008113 seconds
+  Import took 0.010471 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Game Assets/artwork/Tiles/back_19.asset
+  artifactKey: Guid(1653e8f277068f04486753193049a37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Tiles/back_19.asset using Guid(1653e8f277068f04486753193049a37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2141fa028b35129fdcf24ae6e4dbde83') in 0.012758 seconds
+  Import took 0.015160 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Game Assets/artwork/Tiles/back_15.asset
+  artifactKey: Guid(7e17d6be2385e4e438c1d51327e98f84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Tiles/back_15.asset using Guid(7e17d6be2385e4e438c1d51327e98f84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d9dfaf20be68e3a27a54717437c3b14') in 0.011813 seconds
+  Import took 0.014244 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/Game Assets/artwork/Tiles/back_26.asset
+  artifactKey: Guid(6705f8f9fe0790146aa03e48856040d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Tiles/back_26.asset using Guid(6705f8f9fe0790146aa03e48856040d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8f154ce6ef51e4f2993b8539f7caed6') in 0.007869 seconds
+  Import took 0.010724 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/Game Assets/artwork/Tiles/back_47.asset
+  artifactKey: Guid(f61680a4919216140bd7e10ae8638f1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Tiles/back_47.asset using Guid(f61680a4919216140bd7e10ae8638f1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6703968c62e7ad29b88b544ba0e28806') in 0.008714 seconds
+  Import took 0.011164 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Game Assets/artwork/Tiles/back_64.asset
+  artifactKey: Guid(2e5827e6f8ff2b344a8cfc76b2b91fcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Tiles/back_64.asset using Guid(2e5827e6f8ff2b344a8cfc76b2b91fcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98d8b9cb99e9c59aeab7ec88a8c63ec0') in 0.009568 seconds
+  Import took 0.011983 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/Game Assets/artwork/Tiles/back_44.asset
+  artifactKey: Guid(8d31d9da14cc2414498a9a3738cb5665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Tiles/back_44.asset using Guid(8d31d9da14cc2414498a9a3738cb5665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8421544b7291567bd64d92f52fb6a82') in 0.014512 seconds
+  Import took 0.016921 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/Game Assets/artwork/Tiles/back_54.asset
+  artifactKey: Guid(fc2dfd062ff558a4ab1b16a687f9e79e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Tiles/back_54.asset using Guid(fc2dfd062ff558a4ab1b16a687f9e79e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d07c750d983205d879e3e5d14bc61e1') in 0.013998 seconds
+  Import took 0.016517 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Game Assets/artwork/Tiles/back_21.asset
+  artifactKey: Guid(ec12d59132a60c4448ebc8cb1a4a9618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Tiles/back_21.asset using Guid(ec12d59132a60c4448ebc8cb1a4a9618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8da757bd62cba65a8767f1364f527668') in 0.008272 seconds
+  Import took 0.010773 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Game Assets/artwork/Tiles/back_56.asset
+  artifactKey: Guid(a6f2b94a3b11e2c44a16c463ed1da69d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Tiles/back_56.asset using Guid(a6f2b94a3b11e2c44a16c463ed1da69d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '762c388d0d2c87195a42f67012ef5b3b') in 0.007587 seconds
+  Import took 0.010595 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Game Assets/artwork/Tiles/back_10.asset
+  artifactKey: Guid(ba350affb12a86243806c92978afe4b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Tiles/back_10.asset using Guid(ba350affb12a86243806c92978afe4b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4fd401766f840d72531d22d570664dd') in 0.008033 seconds
+  Import took 0.010345 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/Game Assets/artwork/Tiles/back_37.asset
+  artifactKey: Guid(853d0f3d5c4c0cd48ad9767ffc1fbfd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Tiles/back_37.asset using Guid(853d0f3d5c4c0cd48ad9767ffc1fbfd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7256285e7a8efd39dc60ce4d853a04b5') in 0.008018 seconds
+  Import took 0.010404 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Game Assets/artwork/Tiles/back_3.asset
+  artifactKey: Guid(298054b99cf76504492785a559f94c66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Tiles/back_3.asset using Guid(298054b99cf76504492785a559f94c66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e90918920d7bb338646640d56c33494') in 0.008441 seconds
+  Import took 0.010800 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/Game Assets/artwork/Tiles/back_20.asset
+  artifactKey: Guid(075f5e4b16f6d7a4ab706ba59396d4dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Tiles/back_20.asset using Guid(075f5e4b16f6d7a4ab706ba59396d4dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35fe13cc8e4cdbbc5672372d41d9031c') in 0.008177 seconds
+  Import took 0.010696 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Game Assets/artwork/Tiles/back_16.asset
+  artifactKey: Guid(d9471fa746587ba4f915526cfd8e1ef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Tiles/back_16.asset using Guid(d9471fa746587ba4f915526cfd8e1ef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ed753ee378f9f35f25243422a18d1c0') in 0.007928 seconds
+  Import took 0.010675 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Game Assets/artwork/Tiles/back_32.asset
+  artifactKey: Guid(5e3be75ee2989fa479c8bc3f74e80d5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Tiles/back_32.asset using Guid(5e3be75ee2989fa479c8bc3f74e80d5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c02c5146c9779b71f0008c879d291a48') in 0.007868 seconds
+  Import took 0.010304 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Game Assets/artwork/Tiles/back_35.asset
+  artifactKey: Guid(4f6b1d310e74a3346a9b9d1d8cc52fb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Tiles/back_35.asset using Guid(4f6b1d310e74a3346a9b9d1d8cc52fb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '143581dba82955b6ac664d2d345f9e4f') in 0.008717 seconds
+  Import took 0.011232 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/Game Assets/artwork/Tiles/back_49.asset
+  artifactKey: Guid(20a813266c924cc43a6d7bcc37be2e6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Tiles/back_49.asset using Guid(20a813266c924cc43a6d7bcc37be2e6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1aa2d96580735449df9aa15ffa42c232') in 0.008502 seconds
+  Import took 0.010863 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/Game Assets/artwork/Tiles/back_25.asset
+  artifactKey: Guid(a73a6cbfbaa1b534fa332e14b2c90009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Tiles/back_25.asset using Guid(a73a6cbfbaa1b534fa332e14b2c90009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e527850efde44cf0c2cb197b115543f2') in 0.008006 seconds
+  Import took 0.010384 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Game Assets/artwork/Tiles/back_68.asset
+  artifactKey: Guid(281c981a9f8edd44eb0d2fb1f978c005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Tiles/back_68.asset using Guid(281c981a9f8edd44eb0d2fb1f978c005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1333e31dfbf7e08f70d547c75cc35b32') in 0.008483 seconds
+  Import took 0.010924 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Game Assets/artwork/Tiles/back_46.asset
+  artifactKey: Guid(d1935ad67c774d1488e5f90127a9dba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Tiles/back_46.asset using Guid(d1935ad67c774d1488e5f90127a9dba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cab2285b9f5e6f4cd3f7e71df8117447') in 0.008854 seconds
+  Import took 0.011298 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Game Assets/artwork/Tiles/back_29.asset
+  artifactKey: Guid(7762ab22677823d4ab016746e48b120a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Tiles/back_29.asset using Guid(7762ab22677823d4ab016746e48b120a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '423ed99162823b0f7f03bfa9b2183e18') in 0.007399 seconds
+  Import took 0.009765 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Game Assets/artwork/Tiles/back_7.asset
+  artifactKey: Guid(64a9407dcf34723448015a1023a45aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Tiles/back_7.asset using Guid(64a9407dcf34723448015a1023a45aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c91a7cb34f4b02ea79177b0774e96672') in 0.014332 seconds
+  Import took 0.016855 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Game Assets/artwork/Tiles/back_62.asset
+  artifactKey: Guid(94d383a7ff561c24aabeae832106bbec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Tiles/back_62.asset using Guid(94d383a7ff561c24aabeae832106bbec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75ea9680d170772fe8262ebcc75adc1d') in 0.008283 seconds
+  Import took 0.010865 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/Game Assets/artwork/Tiles/back_57.asset
+  artifactKey: Guid(41fbcdd8152a4d44eaf23eb1b5d3d119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Tiles/back_57.asset using Guid(41fbcdd8152a4d44eaf23eb1b5d3d119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02fa189d71aa2aa2b3fde62dec52d3f0') in 0.007536 seconds
+  Import took 0.009842 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Game Assets/artwork/Tiles/back_23.asset
+  artifactKey: Guid(44355b30a0ec7cc4ba28f4749f2c0180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Tiles/back_23.asset using Guid(44355b30a0ec7cc4ba28f4749f2c0180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b81a97e04d2d28972ecbc856df0891a') in 0.010115 seconds
+  Import took 0.012445 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Game Assets/artwork/Tiles/back_1.asset
+  artifactKey: Guid(a6723a5390652c849870ada3b17f18e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Tiles/back_1.asset using Guid(a6723a5390652c849870ada3b17f18e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc5e1cd6c3df73ddcf0942f529226337') in 0.010007 seconds
+  Import took 0.012524 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Game Assets/artwork/Tiles/back_58.asset
+  artifactKey: Guid(b4247fce1f34ec44e81fd0b3f77e3f2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Tiles/back_58.asset using Guid(b4247fce1f34ec44e81fd0b3f77e3f2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1f67e30d4cce2304c6af639faaa3ccd') in 0.009738 seconds
+  Import took 0.012172 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Game Assets/artwork/Tiles/back_51.asset
+  artifactKey: Guid(dda7d47be5b74c9418df1e0a89ee7df8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Tiles/back_51.asset using Guid(dda7d47be5b74c9418df1e0a89ee7df8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6375828bfc8b7eb466d87ef77e30e7f7') in 0.009495 seconds
+  Import took 0.011873 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/Game Assets/artwork/Tiles/back_6.asset
+  artifactKey: Guid(436315ac73d2f9d46bb399cfbf559828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Tiles/back_6.asset using Guid(436315ac73d2f9d46bb399cfbf559828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dea8441bb0e8cce9b10107fd84c65c2') in 0.007526 seconds
+  Import took 0.010111 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Game Assets/artwork/Tiles/back_11.asset
+  artifactKey: Guid(1793aa9c8a8527c4ca93e9a8e260291f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Tiles/back_11.asset using Guid(1793aa9c8a8527c4ca93e9a8e260291f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73fe52a2b31dfa5394be347e55d219b4') in 0.008340 seconds
+  Import took 0.010835 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Game Assets/artwork/Tiles/back_41.asset
+  artifactKey: Guid(61d394d7645c31343a2e37e8ce9734a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Tiles/back_41.asset using Guid(61d394d7645c31343a2e37e8ce9734a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94eba7ea6682d2ee86e95bc9022b723e') in 0.007587 seconds
+  Import took 0.009934 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Game Assets/artwork/Tiles/back_5.asset
+  artifactKey: Guid(251e90074a2742f429b5cc39a4634c20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Tiles/back_5.asset using Guid(251e90074a2742f429b5cc39a4634c20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ea448f7f2b00e3f80300881994ec1fe') in 0.008232 seconds
+  Import took 0.010843 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Game Assets/artwork/Tiles/back_18.asset
+  artifactKey: Guid(e0a20d566f39df74ea407689db8ec2a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Tiles/back_18.asset using Guid(e0a20d566f39df74ea407689db8ec2a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '487f256abd5a8ea9c49ddaa124687fb2') in 0.009649 seconds
+  Import took 0.011994 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Game Assets/artwork/Tiles/back_22.asset
+  artifactKey: Guid(eebe7cbc018ceea4eb4e73b463e0d209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Tiles/back_22.asset using Guid(eebe7cbc018ceea4eb4e73b463e0d209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c54b13c744183931b5439e23ffc1dd4f') in 0.015170 seconds
+  Import took 0.017528 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Game Assets/artwork/Tiles/back_2.asset
+  artifactKey: Guid(58851814a19ab6346aa5accf9d4b59ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Tiles/back_2.asset using Guid(58851814a19ab6346aa5accf9d4b59ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16313526c668456f2980f1f08ca212ac') in 0.008502 seconds
+  Import took 0.010859 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Game Assets/artwork/Tiles/back_13.asset
+  artifactKey: Guid(d0d72b70998f61442adea6dd5b573afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Tiles/back_13.asset using Guid(d0d72b70998f61442adea6dd5b573afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1929cd598a8458bcdbffad900d90fc8') in 0.007541 seconds
+  Import took 0.009981 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Game Assets/artwork/Tiles/back_24.asset
+  artifactKey: Guid(11fb151007437e74fbd37e88434da1ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Tiles/back_24.asset using Guid(11fb151007437e74fbd37e88434da1ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeefa9154868defca7eca93d99f9a846') in 0.009072 seconds
+  Import took 0.011505 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Game Assets/artwork/Tiles/back_40.asset
+  artifactKey: Guid(77d21ba8eb0cef545a0efdd34e2dfde1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Tiles/back_40.asset using Guid(77d21ba8eb0cef545a0efdd34e2dfde1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8779862bf5889a08e877049a60ea480') in 0.012060 seconds
+  Import took 0.014450 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Game Assets/artwork/Tiles/back_9.asset
+  artifactKey: Guid(f9e1fd8b88e25f74d9b8f3c2184803d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Tiles/back_9.asset using Guid(f9e1fd8b88e25f74d9b8f3c2184803d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dce39e3e15aeba00dc5eb8bd5b0c633a') in 0.007531 seconds
+  Import took 0.009897 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Game Assets/artwork/Tiles/back_33.asset
+  artifactKey: Guid(7f75193e6b9b84e4cbfb95139e33ddb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Tiles/back_33.asset using Guid(7f75193e6b9b84e4cbfb95139e33ddb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b75b1d091b351d406c9f0e5516f617d4') in 0.011988 seconds
+  Import took 0.014440 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Game Assets/artwork/Tiles/back_63.asset
+  artifactKey: Guid(b78746412460b854c85c164e50977673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Tiles/back_63.asset using Guid(b78746412460b854c85c164e50977673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b0ae20c7f0a6265c9b4a507d1020e68') in 0.007879 seconds
+  Import took 0.010351 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Game Assets/artwork/Tiles/back_31.asset
+  artifactKey: Guid(5dbb803e53234c449a91c076ccea86dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Tiles/back_31.asset using Guid(5dbb803e53234c449a91c076ccea86dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ca06c5f91cec16b2eebab956c35ddf0') in 0.008942 seconds
+  Import took 0.011355 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Game Assets/artwork/Tiles/back_12.asset
+  artifactKey: Guid(dfdddc4cf532b7a43afa99305afe1e0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Tiles/back_12.asset using Guid(dfdddc4cf532b7a43afa99305afe1e0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25c1c47e6df307ba923bae44df8bb798') in 0.008144 seconds
+  Import took 0.010669 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Game Assets/artwork/Tiles/back_30.asset
+  artifactKey: Guid(674d0636129e83d44853123d7f00ac18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Tiles/back_30.asset using Guid(674d0636129e83d44853123d7f00ac18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecb69fbd3c937d05c5790286ac7e1e26') in 0.009336 seconds
+  Import took 0.011768 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Game Assets/artwork/Tiles/back_34.asset
+  artifactKey: Guid(3cc818740fc6079408c558839e0ba5b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Tiles/back_34.asset using Guid(3cc818740fc6079408c558839e0ba5b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e17b5b80cb7a13754c25f764da9a4360') in 0.010637 seconds
+  Import took 0.013099 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Game Assets/artwork/Tiles/back_17.asset
+  artifactKey: Guid(e7274b227498d814c9ceb728dd66db4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Tiles/back_17.asset using Guid(e7274b227498d814c9ceb728dd66db4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '639c352b460294008bf03b2268261b43') in 0.008565 seconds
+  Import took 0.010979 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Game Assets/artwork/Tiles/back_42.asset
+  artifactKey: Guid(8ff27a3629c79af43982bff14734c299) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Tiles/back_42.asset using Guid(8ff27a3629c79af43982bff14734c299) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5b48cf32d81648778c722b988992a47') in 0.008850 seconds
+  Import took 0.011399 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Game Assets/artwork/Tiles/back_65.asset
+  artifactKey: Guid(f9ff70e27e2c54142bce7670c797bb22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Tiles/back_65.asset using Guid(f9ff70e27e2c54142bce7670c797bb22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15aabf390ea7b6179bdc5ec33038cc47') in 0.008290 seconds
+  Import took 0.010797 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/Game Assets/artwork/Tiles/back_66.asset
+  artifactKey: Guid(64a6d4e76a8755541a2f0134ef0279ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Tiles/back_66.asset using Guid(64a6d4e76a8755541a2f0134ef0279ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54675451618d90fbc5b3d10163a9e5da') in 0.014401 seconds
+  Import took 0.016833 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Game Assets/artwork/Tiles/back_36.asset
+  artifactKey: Guid(84b626a88eb79df4f84ebb553cc43d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Tiles/back_36.asset using Guid(84b626a88eb79df4f84ebb553cc43d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acee32302c4821e1fc98857a0e663130') in 0.015194 seconds
+  Import took 0.017772 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Game Assets/artwork/Tiles/back_60.asset
+  artifactKey: Guid(16aa20d9532e5244bafd913bb8dd9759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Tiles/back_60.asset using Guid(16aa20d9532e5244bafd913bb8dd9759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7019fe35b3cd92e54676e2b4e7f18c8') in 0.011232 seconds
+  Import took 0.013688 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Game Assets/artwork/Tiles/back_70.asset
+  artifactKey: Guid(272404a3bd519974685abdc5e0c8d1fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Tiles/back_70.asset using Guid(272404a3bd519974685abdc5e0c8d1fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '924ac032075dccb2cf3cdb70c6681c50') in 0.009117 seconds
+  Import took 0.011527 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Game Assets/artwork/Tiles/back_45.asset
+  artifactKey: Guid(eabab3c11bad2ef49ac9a5e6c38b2b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Tiles/back_45.asset using Guid(eabab3c11bad2ef49ac9a5e6c38b2b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6932507358462e898fd8a0787af7984') in 0.008124 seconds
+  Import took 0.010600 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Game Assets/artwork/Tiles/back_52.asset
+  artifactKey: Guid(df33e6392946c0042be6416767a41c34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Tiles/back_52.asset using Guid(df33e6392946c0042be6416767a41c34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50604c67b7b12919485cdad70c21f19d') in 0.009932 seconds
+  Import took 0.012323 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Game Assets/artwork/Tiles/back_53.asset
+  artifactKey: Guid(a71203b004f9d954f92664f594267986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Tiles/back_53.asset using Guid(a71203b004f9d954f92664f594267986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7079ff5e339df9d9cf7dbe3e82b0a151') in 0.011777 seconds
+  Import took 0.014208 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Game Assets/artwork/Tiles/back_39.asset
+  artifactKey: Guid(7fa404727837a414ea0dc0c6309a96e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Tiles/back_39.asset using Guid(7fa404727837a414ea0dc0c6309a96e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f010b71d528857437d59bbff2176d15') in 0.007652 seconds
+  Import took 0.010055 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Game Assets/artwork/Tiles/back_38.asset
+  artifactKey: Guid(50228004883ccf24ca9b4cf539ce8202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Tiles/back_38.asset using Guid(50228004883ccf24ca9b4cf539ce8202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61acaaf67744c7f17944ec5991948290') in 0.008406 seconds
+  Import took 0.010803 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Game Assets/artwork/Tiles/back_59.asset
+  artifactKey: Guid(de3ca7acf47518f4fad5ea42ec778b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Tiles/back_59.asset using Guid(de3ca7acf47518f4fad5ea42ec778b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25a963f3dc19ff0d39daa348f6918177') in 0.010067 seconds
+  Import took 0.012576 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Game Assets/artwork/Tiles/back_8.asset
+  artifactKey: Guid(52996146824c9e945b17c5ca6900b423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Tiles/back_8.asset using Guid(52996146824c9e945b17c5ca6900b423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14a34b76ac9b07bcbca7386306396623') in 0.009032 seconds
+  Import took 0.011392 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Game Assets/artwork/Tiles/back_28.asset
+  artifactKey: Guid(c47228503252ebc419e703bcf03f20db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Tiles/back_28.asset using Guid(c47228503252ebc419e703bcf03f20db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeabd1b41065e5adc979e0722039704d') in 0.009219 seconds
+  Import took 0.011595 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Game Assets/artwork/Tiles/back_4.asset
+  artifactKey: Guid(c3c6a49f773b9ad4695445e38380390b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Tiles/back_4.asset using Guid(c3c6a49f773b9ad4695445e38380390b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6b29ca248ecbfbb5ce76e7d9ee498ac') in 0.007409 seconds
+  Import took 0.010129 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Game Assets/artwork/Tiles/back_61.asset
+  artifactKey: Guid(0570415cdb6e06647948eacedec0c95a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Tiles/back_61.asset using Guid(0570415cdb6e06647948eacedec0c95a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02160c1c74b0f4fd1edb92ab2c544005') in 0.014656 seconds
+  Import took 0.017123 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.759032 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images
+  artifactKey: Guid(c7dcefaf25d5e524fb66009392f3522a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images using Guid(c7dcefaf25d5e524fb66009392f3522a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a19699e752612e4ffd1c59eb63e6341b') in 0.007565 seconds
+  Import took 0.010492 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.105410 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_04.gif
+  artifactKey: Guid(092c66ffb11885d4baf4e6b6c6c23ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_04.gif using Guid(092c66ffb11885d4baf4e6b6c6c23ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '264c7d3d658ffaa24c7895a7a70328e6') in 0.011574 seconds
+  Import took 0.014339 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_07.gif
+  artifactKey: Guid(8731e549873599b478fe12ea1ab2953c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_07.gif using Guid(8731e549873599b478fe12ea1ab2953c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a78c6ce7572c43836dccfe463c4a8c6') in 0.012610 seconds
+  Import took 0.015412 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_06.gif
+  artifactKey: Guid(ad69200cb5e205940ac826251ed51222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_06.gif using Guid(ad69200cb5e205940ac826251ed51222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd0b01c4c0ed302215b38b41a59a9e58') in 0.017662 seconds
+  Import took 0.020110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_08.gif
+  artifactKey: Guid(524bb3f15dbdfba42933de0008b458b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_08.gif using Guid(524bb3f15dbdfba42933de0008b458b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9de1da745d69dab578fb7da53063f34') in 0.012684 seconds
+  Import took 0.015006 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_70.gif
+  artifactKey: Guid(19552004b6ffb2b44b085ec6fa08d8bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_70.gif using Guid(19552004b6ffb2b44b085ec6fa08d8bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9d8a0e9d4d5e888b875b04005dea76d') in 0.018119 seconds
+  Import took 0.020533 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_05.gif
+  artifactKey: Guid(aad8329505c8d2141b7b2d90a4d80fd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_05.gif using Guid(aad8329505c8d2141b7b2d90a4d80fd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6be86c5a895d94e4f805deee8ad83ac8') in 0.013755 seconds
+  Import took 0.016140 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_45.gif
+  artifactKey: Guid(9c06e9de0db1f3e4e8cbec3100559a2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_45.gif using Guid(9c06e9de0db1f3e4e8cbec3100559a2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9fcc09ce88315f14ea454913b9a1e14') in 0.018852 seconds
+  Import took 0.021206 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_36.gif
+  artifactKey: Guid(82e195834b3acf546a5d85e0dfb37209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_36.gif using Guid(82e195834b3acf546a5d85e0dfb37209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aefe313d3bb75e75009c16b2ec2d89ee') in 0.016776 seconds
+  Import took 0.019104 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_62.gif
+  artifactKey: Guid(31e5195e9b62fc342aa2bd847026c532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_62.gif using Guid(31e5195e9b62fc342aa2bd847026c532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa1c43251b13d513a98d0b65e8978715') in 0.016263 seconds
+  Import took 0.019037 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_46.gif
+  artifactKey: Guid(4f2858e1699b2b34a97bf553af75ce49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_46.gif using Guid(4f2858e1699b2b34a97bf553af75ce49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5f39c8e10909295647ec68daa886c30') in 0.016693 seconds
+  Import took 0.019028 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_23.gif
+  artifactKey: Guid(9aa9ee60309f8dc498b1394fb6882869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_23.gif using Guid(9aa9ee60309f8dc498b1394fb6882869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0acb95814f564e9193487fab3f6c20db') in 0.021966 seconds
+  Import took 0.024319 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_60.png
+  artifactKey: Guid(f2433202ee3db224d9bc6f9a72d1dc81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_60.png using Guid(f2433202ee3db224d9bc6f9a72d1dc81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46dee808a71c9ea40cfbbabaf2c6822d') in 0.020966 seconds
+  Import took 0.023386 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_23.gif
+  artifactKey: Guid(9aa9ee60309f8dc498b1394fb6882869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_23.gif using Guid(9aa9ee60309f8dc498b1394fb6882869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0acb95814f564e9193487fab3f6c20db') in 0.011029 seconds
+  Import took 0.013367 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_18.gif
+  artifactKey: Guid(d027c085849545b41830efe921b4fa0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_18.gif using Guid(d027c085849545b41830efe921b4fa0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e39568d6de057d7a7ef84118ff8505c3') in 0.014158 seconds
+  Import took 0.016531 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_19.gif
+  artifactKey: Guid(76c666ed932f877468394b596269d272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_19.gif using Guid(76c666ed932f877468394b596269d272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48f6333f4443692b6596ad6336d3869c') in 0.012101 seconds
+  Import took 0.014446 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_17.png
+  artifactKey: Guid(e93440e9b06fe9148b4cb3241296a4c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_17.png using Guid(e93440e9b06fe9148b4cb3241296a4c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45bb6d216bb9d9a1489908276402889f') in 0.015628 seconds
+  Import took 0.018256 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_24.gif
+  artifactKey: Guid(f12b4330866af954d98d8adc56850557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_24.gif using Guid(f12b4330866af954d98d8adc56850557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70b73cb02ce73c505554c2e2fe4e9bb9') in 0.013214 seconds
+  Import took 0.015740 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_34.gif
+  artifactKey: Guid(5fb01caf6ab462749af83bda154da6b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_34.gif using Guid(5fb01caf6ab462749af83bda154da6b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64bd1d979b52916c2860a2f96dd2e328') in 0.016088 seconds
+  Import took 0.018636 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_49.gif
+  artifactKey: Guid(cbea7fc135bdc5148855746e7a1344ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_49.gif using Guid(cbea7fc135bdc5148855746e7a1344ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e10f465f47475b40c18978313fa02f59') in 0.014447 seconds
+  Import took 0.016834 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_14.gif
+  artifactKey: Guid(068d09350e4c9fc4bbed6c1d1e67fb1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_14.gif using Guid(068d09350e4c9fc4bbed6c1d1e67fb1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f11f11493de3656ba9362669d896d0f') in 0.015924 seconds
+  Import took 0.018383 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_09.gif
+  artifactKey: Guid(eac4fd4399b93bf48b0cb3a13f1e0376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_09.gif using Guid(eac4fd4399b93bf48b0cb3a13f1e0376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28ffb508f1b1393e214430fdb1979ba5') in 0.016703 seconds
+  Import took 0.019096 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_21.gif
+  artifactKey: Guid(5f74bb5cf1a97e54f931def344f10f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_21.gif using Guid(5f74bb5cf1a97e54f931def344f10f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d5fcab7b0b52647c5fa7d027fad5979') in 0.012243 seconds
+  Import took 0.014604 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_25.gif
+  artifactKey: Guid(96004adfc28007541bc15e0c18471c50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_25.gif using Guid(96004adfc28007541bc15e0c18471c50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '088bb8442a36c146fa9ce891a0ac270d') in 0.010970 seconds
+  Import took 0.013349 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_56.gif
+  artifactKey: Guid(22fbc2401807076439b65ccd4f7af1ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_56.gif using Guid(22fbc2401807076439b65ccd4f7af1ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75fb00a8315b3956ffb5ebc2e4cfdeba') in 0.012881 seconds
+  Import took 0.015821 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_71.gif
+  artifactKey: Guid(7f7c825da2cc69d4489e93b7722d89e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_71.gif using Guid(7f7c825da2cc69d4489e93b7722d89e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56dece8e0800451dfb2b5705934747ca') in 0.012741 seconds
+  Import took 0.015281 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_29.gif
+  artifactKey: Guid(fd13a5bfa477ae44990afe5d42e44f13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_29.gif using Guid(fd13a5bfa477ae44990afe5d42e44f13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f24e2c9c1405fa03f24ae03aa050956d') in 0.010237 seconds
+  Import took 0.012880 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_39.gif
+  artifactKey: Guid(ee42d54c14214bd4b80721d25144cb9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_39.gif using Guid(ee42d54c14214bd4b80721d25144cb9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79f8b1753869d90a849c2832a4494be3') in 0.016408 seconds
+  Import took 0.018949 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_48.gif
+  artifactKey: Guid(547c1f94f26111047aafbaac9aee2e0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_48.gif using Guid(547c1f94f26111047aafbaac9aee2e0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd72e54a5442f1193744ae9451fccb535') in 0.013411 seconds
+  Import took 0.016000 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_26.gif
+  artifactKey: Guid(7e3978c92988da44b8e57784529083b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_26.gif using Guid(7e3978c92988da44b8e57784529083b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95c4b2951adcaabe4e8f3ef01025fe22') in 0.013866 seconds
+  Import took 0.016329 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_66.gif
+  artifactKey: Guid(5d144916adfe93948b1e98147ab24cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_66.gif using Guid(5d144916adfe93948b1e98147ab24cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2321aaa68828df6981440625a0a739de') in 0.014983 seconds
+  Import took 0.017601 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_67.gif
+  artifactKey: Guid(377e9d017adf6284d8ebf861eda2678a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_67.gif using Guid(377e9d017adf6284d8ebf861eda2678a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f386afeb1a1a30a344daf3e66df62161') in 0.014079 seconds
+  Import took 0.016576 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_58.png
+  artifactKey: Guid(08bdca8afbec26b42bf4bb79c74bda4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_58.png using Guid(08bdca8afbec26b42bf4bb79c74bda4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c9ae1fa4c64bcdb56b4e57c185753cb') in 0.009375 seconds
+  Import took 0.011966 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_64.gif
+  artifactKey: Guid(09ff520192f9cbd45a2abe51318c9ae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_64.gif using Guid(09ff520192f9cbd45a2abe51318c9ae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36c052f23e52cb915a08b6b4ed4b700b') in 0.012226 seconds
+  Import took 0.014703 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_61.gif
+  artifactKey: Guid(bb1481b05f848f149865a91ca11931df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_61.gif using Guid(bb1481b05f848f149865a91ca11931df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1f88e1a51eef9edc80485e4c6b43fb4') in 0.014744 seconds
+  Import took 0.017095 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_68.gif
+  artifactKey: Guid(ab56367586b88db42af34f277a41cfe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_68.gif using Guid(ab56367586b88db42af34f277a41cfe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c69a88aa2802407cb5dd5ab5dce6b42') in 0.014917 seconds
+  Import took 0.017339 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_20.gif
+  artifactKey: Guid(18ebaa5538a34b04a93d39bc954429ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_20.gif using Guid(18ebaa5538a34b04a93d39bc954429ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ac95e76fe5c166f0c4c1239de68258a') in 0.017734 seconds
+  Import took 0.020129 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_30.gif
+  artifactKey: Guid(fc16793f0b5eef042adb6d4e32efdd59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_30.gif using Guid(fc16793f0b5eef042adb6d4e32efdd59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e4f9803bed52ca7332d4e80b8472341') in 0.013531 seconds
+  Import took 0.016050 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000381 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_43.gif
+  artifactKey: Guid(b22c9ee134b646347b61ebefd4d533a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_43.gif using Guid(b22c9ee134b646347b61ebefd4d533a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '849eca8e672d409b2378f5f597cbb242') in 0.012014 seconds
+  Import took 0.014442 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_12.gif
+  artifactKey: Guid(c9f3ba66b61b7c24bbc0b63206ec6da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_12.gif using Guid(c9f3ba66b61b7c24bbc0b63206ec6da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '231bccf0b373256ad45be6c398d0edf0') in 0.013092 seconds
+  Import took 0.015526 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_55.gif
+  artifactKey: Guid(359445c9a7404dc49bc72d80810393ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_55.gif using Guid(359445c9a7404dc49bc72d80810393ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf92eb9ddb7cf63845537d354db7f056') in 0.015791 seconds
+  Import took 0.018151 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_50.gif
+  artifactKey: Guid(46560d3c0ce0ed14b9648f5d0558d4e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_50.gif using Guid(46560d3c0ce0ed14b9648f5d0558d4e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f46171003ead450617f47b3e9eca9f9') in 0.012855 seconds
+  Import took 0.015228 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_31.png
+  artifactKey: Guid(ec758598858ee824aa26c8e21f70ad03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_31.png using Guid(ec758598858ee824aa26c8e21f70ad03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '693a0d9695e1fee726ab926b27b8d913') in 0.010909 seconds
+  Import took 0.013319 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_37.gif
+  artifactKey: Guid(5208b7d0f40fa0d40a04a3635c804db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_37.gif using Guid(5208b7d0f40fa0d40a04a3635c804db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80d2b7fc38d2b3f29e940210883b5d10') in 0.013577 seconds
+  Import took 0.016028 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_57.gif
+  artifactKey: Guid(c8d2be70386ec394ba5f6c9c7c84a385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_57.gif using Guid(c8d2be70386ec394ba5f6c9c7c84a385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb4b3c121e3831edadd5d5bb10477a88') in 0.016682 seconds
+  Import took 0.019085 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_47.gif
+  artifactKey: Guid(ccf6e92c9cb1bae49bf4e0493a0023fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_47.gif using Guid(ccf6e92c9cb1bae49bf4e0493a0023fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4f2d5c4ac029d886e11fac1d8523cd9') in 0.015609 seconds
+  Import took 0.017982 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_40.png
+  artifactKey: Guid(2b3122ae36a6e8744b544f12021d74fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_40.png using Guid(2b3122ae36a6e8744b544f12021d74fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '531cffb08b2ec2197c785186afa61a56') in 0.010891 seconds
+  Import took 0.013468 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_41.gif
+  artifactKey: Guid(fa3f7e63d8ae97040a5bdac073ef70ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_41.gif using Guid(fa3f7e63d8ae97040a5bdac073ef70ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8260c67b10efe35b2dfe6b42969278b4') in 0.013071 seconds
+  Import took 0.015548 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_42.gif
+  artifactKey: Guid(604d5e73dad718e4b80546996aa16a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_42.gif using Guid(604d5e73dad718e4b80546996aa16a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6740f4b6f524b33915ed30adfcf683ef') in 0.015202 seconds
+  Import took 0.017616 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_51.gif
+  artifactKey: Guid(064366b23dc9877458d4b4d60a570acc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_51.gif using Guid(064366b23dc9877458d4b4d60a570acc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90f4f004e3fe64d07f811eeab7bab46e') in 0.017543 seconds
+  Import took 0.019888 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_28.gif
+  artifactKey: Guid(ae38eb5736683174882fa664d80e2eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_28.gif using Guid(ae38eb5736683174882fa664d80e2eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20395f71588f8f9b76d73b31747a43a9') in 0.012732 seconds
+  Import took 0.015130 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_72.gif
+  artifactKey: Guid(8bbff3d40401dbf4aa402ae6fad6e656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_72.gif using Guid(8bbff3d40401dbf4aa402ae6fad6e656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc3d883665f8b456fe0abcce978ea94a') in 0.014067 seconds
+  Import took 0.016908 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_53.gif
+  artifactKey: Guid(8f98ce5392a17f94c8b06b2247f37c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_53.gif using Guid(8f98ce5392a17f94c8b06b2247f37c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61ec75b815a5f674615ce02f4ab74066') in 0.011162 seconds
+  Import took 0.013671 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_32.gif
+  artifactKey: Guid(d7077903fc7a3344fbda5afa6c69f234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_32.gif using Guid(d7077903fc7a3344fbda5afa6c69f234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3c5b12f5ecccb4c9224f68af8ec6508') in 0.011459 seconds
+  Import took 0.013941 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_33.gif
+  artifactKey: Guid(555035a32892e6746a2c784d392433f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_33.gif using Guid(555035a32892e6746a2c784d392433f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b314ece2bab6d347eeb9cac28785fe01') in 0.015637 seconds
+  Import took 0.018050 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_65.gif
+  artifactKey: Guid(b6288a3d0adb1fe418e57f8212ad4af8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_65.gif using Guid(b6288a3d0adb1fe418e57f8212ad4af8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad65226ba7d74f8836883850c9eb009e') in 0.016781 seconds
+  Import took 0.019134 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_63.gif
+  artifactKey: Guid(7c525123ccf52a64d9c79907acc4ac5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_63.gif using Guid(7c525123ccf52a64d9c79907acc4ac5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1ebf0026b1726b428322d6b5b8afc4f') in 0.015291 seconds
+  Import took 0.017707 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_16.gif
+  artifactKey: Guid(00db6bf4c6f20e44b8f705fc7894bb27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_16.gif using Guid(00db6bf4c6f20e44b8f705fc7894bb27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da1afe3846338d74bc38df51e0b55b43') in 0.012377 seconds
+  Import took 0.014817 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_10.gif
+  artifactKey: Guid(33a514e02b574104d8c7dcac6ace11f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_10.gif using Guid(33a514e02b574104d8c7dcac6ace11f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3436e4b5fefc1d2cdf67eb732eea826') in 0.013820 seconds
+  Import took 0.016484 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_15.png
+  artifactKey: Guid(45261f166ae36a7449136205d015b402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_15.png using Guid(45261f166ae36a7449136205d015b402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d0d1e78b02d81c8ef78f7d8ff792b12') in 0.010491 seconds
+  Import took 0.013104 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_52.gif
+  artifactKey: Guid(c14c5948f69e428448d577afb3fc7475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_52.gif using Guid(c14c5948f69e428448d577afb3fc7475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a84c8736641dcd737b96305c502f380') in 0.012703 seconds
+  Import took 0.015075 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_44.gif
+  artifactKey: Guid(2275871f46d08c94a9fb199a08cdebd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_44.gif using Guid(2275871f46d08c94a9fb199a08cdebd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b73a86c52b1b5e5d18cf1d1cf0e191a8') in 0.009718 seconds
+  Import took 0.012114 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_54.gif
+  artifactKey: Guid(5c6b91b6fd19817419932263037017f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_54.gif using Guid(5c6b91b6fd19817419932263037017f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a56b72cffea37b1431c6c3afa3053409') in 0.011558 seconds
+  Import took 0.013999 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_69.gif
+  artifactKey: Guid(2454fcc25d2709c449c3edf045458041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_69.gif using Guid(2454fcc25d2709c449c3edf045458041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06486576386cadf3b12553868298c6b0') in 0.011694 seconds
+  Import took 0.014072 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_13.gif
+  artifactKey: Guid(69e4b929f0d2d1848a60773d47e2f7c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_13.gif using Guid(69e4b929f0d2d1848a60773d47e2f7c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d6530e788cb54d216e6209c7577ee7e') in 0.010650 seconds
+  Import took 0.013099 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_35.gif
+  artifactKey: Guid(85b4e168d5a0d9b40b8eb2178fb596f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_35.gif using Guid(85b4e168d5a0d9b40b8eb2178fb596f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1042751527b11f511321927da33c3577') in 0.011742 seconds
+  Import took 0.014131 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_11.gif
+  artifactKey: Guid(942956b637ae9524eb51b20f789195ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_11.gif using Guid(942956b637ae9524eb51b20f789195ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7858c554703681ecda9b76b425faf9ec') in 0.013182 seconds
+  Import took 0.015609 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_38.gif
+  artifactKey: Guid(2608a8fc6f1b6af49a74247448b6751c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_38.gif using Guid(2608a8fc6f1b6af49a74247448b6751c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8710afc440537ce65c127c2f05eb2be') in 0.014318 seconds
+  Import took 0.016763 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_59.png
+  artifactKey: Guid(2ea59f735ea670746ac81536556b5ba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_59.png using Guid(2ea59f735ea670746ac81536556b5ba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97e63b61348c7f20ac83976c701d8421') in 0.010553 seconds
+  Import took 0.012960 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_27.gif
+  artifactKey: Guid(270eed930bda70948a45f5348eb85125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_27.gif using Guid(270eed930bda70948a45f5348eb85125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f203dcef6298c0cfcdfdaa2e51c386ae') in 0.009717 seconds
+  Import took 0.012070 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_22.gif
+  artifactKey: Guid(760f1296df490e74a907a91f4984010f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_22.gif using Guid(760f1296df490e74a907a91f4984010f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67b467c304fad83d8cb4a2e5918dcdf3') in 0.009954 seconds
+  Import took 0.012367 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.002840 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_02.png
+  artifactKey: Guid(da119f0542145c54990e7e7340bf1c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_02.png using Guid(da119f0542145c54990e7e7340bf1c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e08da00a11b8c74217b0561ac74782e') in 0.016168 seconds
+  Import took 0.018838 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 208.748492 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_02.png
+  artifactKey: Guid(da119f0542145c54990e7e7340bf1c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_02.png using Guid(da119f0542145c54990e7e7340bf1c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d67a9b6684bdb88ac14439e069c2aaa') in 0.011359 seconds
+  Import took 0.014140 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 58.560644 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/player.png
+  artifactKey: Guid(91c92a63a76e28545900710a069efa77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/player.png using Guid(91c92a63a76e28545900710a069efa77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96f038bb6f38f3e26fc7d843206a58ef') in 0.532321 seconds
+  Import took 0.536302 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 110.041689 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/player.png
+  artifactKey: Guid(91c92a63a76e28545900710a069efa77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/player.png using Guid(91c92a63a76e28545900710a069efa77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d455da05af127ab5ba44720e8864a3f') in 0.470897 seconds
+  Import took 0.474893 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001272 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.815 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1694 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.2 MB.
+System memory in use after: 81.9 MB.
+
+Unloading 47 unused Assets to reduce memory usage. Loaded Objects now: 2626.
+Total: 2.518900 ms (FindLiveObjects: 0.232300 ms CreateObjectMapping: 0.084200 ms MarkObjects: 1.428900 ms  DeleteObjects: 0.772500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000906 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.818 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1694 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.2 MB.
+System memory in use after: 82.0 MB.
+
+Unloading 47 unused Assets to reduce memory usage. Loaded Objects now: 2629.
+Total: 7.343100 ms (FindLiveObjects: 0.614200 ms CreateObjectMapping: 0.203000 ms MarkObjects: 4.209600 ms  DeleteObjects: 2.311100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000835 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.790 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1694 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.2 MB.
+System memory in use after: 82.0 MB.
+
+Unloading 47 unused Assets to reduce memory usage. Loaded Objects now: 2632.
+Total: 2.295200 ms (FindLiveObjects: 0.172800 ms CreateObjectMapping: 0.052200 ms MarkObjects: 1.311300 ms  DeleteObjects: 0.757700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000916 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.731 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1694 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.3 MB.
+System memory in use after: 82.0 MB.
+
+Unloading 47 unused Assets to reduce memory usage. Loaded Objects now: 2635.
+Total: 2.626600 ms (FindLiveObjects: 0.230600 ms CreateObjectMapping: 0.089000 ms MarkObjects: 1.487300 ms  DeleteObjects: 0.818700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000770 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.686 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1694 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.3 MB.
+System memory in use after: 82.0 MB.
+
+Unloading 47 unused Assets to reduce memory usage. Loaded Objects now: 2638.
+Total: 2.711600 ms (FindLiveObjects: 0.352200 ms CreateObjectMapping: 0.132400 ms MarkObjects: 1.419500 ms  DeleteObjects: 0.806000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1146.757701 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_103.gif
+  artifactKey: Guid(f5c561a2d32022f40bd7781411ca1bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_103.gif using Guid(f5c561a2d32022f40bd7781411ca1bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09e3b7a637b565f0b1b850c6bd913c06') in 0.045239 seconds
+  Import took 0.047900 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_101.gif
+  artifactKey: Guid(44443fc03d2511f40b57304178484f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_101.gif using Guid(44443fc03d2511f40b57304178484f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6552cc012357cbe74b94f8f48f02626f') in 0.016338 seconds
+  Import took 0.019155 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_104.gif
+  artifactKey: Guid(34a1ec599d07c9940ab073586b0c8c89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_104.gif using Guid(34a1ec599d07c9940ab073586b0c8c89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4291369a386583aa70f0163b13377b35') in 0.014666 seconds
+  Import took 0.017330 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_108.gif
+  artifactKey: Guid(811854c3dd6c43d46aafc34d0849d0ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_108.gif using Guid(811854c3dd6c43d46aafc34d0849d0ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeaa872ebc2acc6c813def6725c85733') in 0.014844 seconds
+  Import took 0.017202 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_45.gif
+  artifactKey: Guid(9c06e9de0db1f3e4e8cbec3100559a2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_45.gif using Guid(9c06e9de0db1f3e4e8cbec3100559a2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01469257039c2950134e098669c96d46') in 0.012603 seconds
+  Import took 0.015053 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_85.gif
+  artifactKey: Guid(5441129f43b9c0c4ebb5b98e08ba1f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_85.gif using Guid(5441129f43b9c0c4ebb5b98e08ba1f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '889849eaa2bb55a1bdd30f525000df9c') in 0.011088 seconds
+  Import took 0.013705 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_62.gif
+  artifactKey: Guid(31e5195e9b62fc342aa2bd847026c532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_62.gif using Guid(31e5195e9b62fc342aa2bd847026c532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '201b88401ee3bb3dfba59bff5c414e62') in 0.013612 seconds
+  Import took 0.015982 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_46.gif
+  artifactKey: Guid(4f2858e1699b2b34a97bf553af75ce49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_46.gif using Guid(4f2858e1699b2b34a97bf553af75ce49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32cc25eefd72016cb93a994e5727ab5a') in 0.013669 seconds
+  Import took 0.016464 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_80.gif
+  artifactKey: Guid(e181f102d22898e47b5a7951ad5c50a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_80.gif using Guid(e181f102d22898e47b5a7951ad5c50a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daa10f1d4e27a56128453ddddff509ed') in 0.014424 seconds
+  Import took 0.017314 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_34.gif
+  artifactKey: Guid(5fb01caf6ab462749af83bda154da6b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_34.gif using Guid(5fb01caf6ab462749af83bda154da6b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '730ed94c2e85c0874591e778e301060c') in 0.015042 seconds
+  Import took 0.017522 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_49.gif
+  artifactKey: Guid(cbea7fc135bdc5148855746e7a1344ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_49.gif using Guid(cbea7fc135bdc5148855746e7a1344ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cb1afa6436deecc064f223a030ed774') in 0.011512 seconds
+  Import took 0.013975 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_83.gif
+  artifactKey: Guid(24f4f2e4e098bf14a82dc5350913e241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_83.gif using Guid(24f4f2e4e098bf14a82dc5350913e241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e61d47643b5e7d74476f424586a9220') in 0.014842 seconds
+  Import took 0.017359 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_71.gif
+  artifactKey: Guid(7f7c825da2cc69d4489e93b7722d89e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_71.gif using Guid(7f7c825da2cc69d4489e93b7722d89e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d88b1b9eaf45f4bff957c3abb305f08') in 0.011480 seconds
+  Import took 0.013945 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_79.gif
+  artifactKey: Guid(4d448d18ab654bb4481321f3eb0a70c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_79.gif using Guid(4d448d18ab654bb4481321f3eb0a70c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6234da6dbb70ae9036615a5b76455a6c') in 0.011534 seconds
+  Import took 0.014108 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_88.gif
+  artifactKey: Guid(96ec3ae94428bd642a8d1d10561cf63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_88.gif using Guid(96ec3ae94428bd642a8d1d10561cf63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8820b78829a1555de896cdabfb91fe5a') in 0.013379 seconds
+  Import took 0.015763 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_56.gif
+  artifactKey: Guid(22fbc2401807076439b65ccd4f7af1ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_56.gif using Guid(22fbc2401807076439b65ccd4f7af1ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de101a737d98fc291583c616e839585c') in 0.019529 seconds
+  Import took 0.021931 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_75.gif
+  artifactKey: Guid(6cd9114295744f342ae742d5f95ba95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_75.gif using Guid(6cd9114295744f342ae742d5f95ba95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '172a7cbcc00ae93a27b880c4201af8c5') in 0.013718 seconds
+  Import took 0.016133 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_74.gif
+  artifactKey: Guid(15b791a5ed79ca245b691796bf3fec7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_74.gif using Guid(15b791a5ed79ca245b691796bf3fec7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9db506a6a05597c872519a6e8ffe27e4') in 0.013967 seconds
+  Import took 0.016352 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_102.gif
+  artifactKey: Guid(09ed412aa3162c84e8393d55465cc1a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_102.gif using Guid(09ed412aa3162c84e8393d55465cc1a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fad8503ab1ad88a0ec12baef25385f9b') in 0.011671 seconds
+  Import took 0.014158 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_67.gif
+  artifactKey: Guid(377e9d017adf6284d8ebf861eda2678a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_67.gif using Guid(377e9d017adf6284d8ebf861eda2678a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ccde102cec94096ba5384e8292e1c5b') in 0.015710 seconds
+  Import took 0.018355 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_48.gif
+  artifactKey: Guid(547c1f94f26111047aafbaac9aee2e0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_48.gif using Guid(547c1f94f26111047aafbaac9aee2e0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ddd19e3b7ce5755276bdcfeb0c485f7') in 0.016066 seconds
+  Import took 0.018493 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_113.gif
+  artifactKey: Guid(60fa6430e39e8c94cb9fbdde119f45a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_113.gif using Guid(60fa6430e39e8c94cb9fbdde119f45a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81a8978ba1644c5987cc533ffdfe1a5d') in 0.011790 seconds
+  Import took 0.014337 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000353 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_66.gif
+  artifactKey: Guid(5d144916adfe93948b1e98147ab24cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_66.gif using Guid(5d144916adfe93948b1e98147ab24cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5554fe35a60cbd92f24322fa4312dbf0') in 0.013944 seconds
+  Import took 0.016407 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_84.gif
+  artifactKey: Guid(61bd9ed1be012a648bea8daff53026a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_84.gif using Guid(61bd9ed1be012a648bea8daff53026a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c969a2258d3615ad2786d9edc5db9bf') in 0.011879 seconds
+  Import took 0.014357 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_107.gif
+  artifactKey: Guid(713a6a027c7f5214a9af5a85290654e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_107.gif using Guid(713a6a027c7f5214a9af5a85290654e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30cd8e06380385efef65c605131a9e13') in 0.011325 seconds
+  Import took 0.013702 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_105.gif
+  artifactKey: Guid(5fa1a0f972156ff4c84222b93d2b290a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_105.gif using Guid(5fa1a0f972156ff4c84222b93d2b290a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bec9ec991e9e3ab552bb496ee390b1e') in 0.013210 seconds
+  Import took 0.015562 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_121.gif
+  artifactKey: Guid(1538bf0f9e6e2124bbb7ff6f0ae10f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_121.gif using Guid(1538bf0f9e6e2124bbb7ff6f0ae10f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ad502f7f65cc1bbed60dbf034bcd5fa') in 0.017114 seconds
+  Import took 0.019611 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_100.gif
+  artifactKey: Guid(2fab8b08af8685947b951f11bd0d5878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_100.gif using Guid(2fab8b08af8685947b951f11bd0d5878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd149934794e64be5ba0f4018c4188216') in 0.013371 seconds
+  Import took 0.015821 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_86.gif
+  artifactKey: Guid(978a5e0da3a6488428de122c20652b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_86.gif using Guid(978a5e0da3a6488428de122c20652b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0438b8255e9fffaceeb4dabab44f2dc') in 0.016904 seconds
+  Import took 0.019421 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_64.gif
+  artifactKey: Guid(09ff520192f9cbd45a2abe51318c9ae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_64.gif using Guid(09ff520192f9cbd45a2abe51318c9ae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1e4bb1192caefc20869b8312945e4fd') in 0.015372 seconds
+  Import took 0.017769 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_81.gif
+  artifactKey: Guid(9a3f33a6a4cb9074cbaac5786ba54090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_81.gif using Guid(9a3f33a6a4cb9074cbaac5786ba54090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1d8672c6dd6b06d6fa215591eab402a') in 0.011972 seconds
+  Import took 0.014692 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_114.gif
+  artifactKey: Guid(ad96823187b673a44ad5dc78d8797526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_114.gif using Guid(ad96823187b673a44ad5dc78d8797526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b3bda5e55bee4f953b167645981428c') in 0.015603 seconds
+  Import took 0.018143 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_61.gif
+  artifactKey: Guid(bb1481b05f848f149865a91ca11931df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_61.gif using Guid(bb1481b05f848f149865a91ca11931df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba91b35d4d58730e72f9362574c8a1da') in 0.013754 seconds
+  Import took 0.016176 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_68.gif
+  artifactKey: Guid(ab56367586b88db42af34f277a41cfe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_68.gif using Guid(ab56367586b88db42af34f277a41cfe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aada3db272d1b75d42403cb59d86650') in 0.010707 seconds
+  Import took 0.013164 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_124.gif
+  artifactKey: Guid(7aef68f955a0d7a42bfcceb0720f447f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_124.gif using Guid(7aef68f955a0d7a42bfcceb0720f447f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33cfbd7848d570e6d7a72cf0be8bd513') in 0.013820 seconds
+  Import took 0.016357 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_98.gif
+  artifactKey: Guid(ec2854b3df8a9014bb89f7c4b41aa0bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_98.gif using Guid(ec2854b3df8a9014bb89f7c4b41aa0bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01a4c6795acff0746614ac9997e6e989') in 0.011765 seconds
+  Import took 0.014251 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_123.gif
+  artifactKey: Guid(91bb191f0a2d56d43b6fefc4aab4bae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_123.gif using Guid(91bb191f0a2d56d43b6fefc4aab4bae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2ede527c267df636312cd20b0c1e4c7') in 0.012427 seconds
+  Import took 0.014922 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_43.gif
+  artifactKey: Guid(b22c9ee134b646347b61ebefd4d533a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_43.gif using Guid(b22c9ee134b646347b61ebefd4d533a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acc8378d6aecf03f1f6a09f87a342eff') in 0.011988 seconds
+  Import took 0.014451 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_97.gif
+  artifactKey: Guid(4ddd7e16035fe674f9cc3728ff15786a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_97.gif using Guid(4ddd7e16035fe674f9cc3728ff15786a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dd47e5f17c8bbdf654c08195e993678') in 0.015072 seconds
+  Import took 0.017474 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_106.gif
+  artifactKey: Guid(85d151237ac44aa4da187f2e0b3d94f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_106.gif using Guid(85d151237ac44aa4da187f2e0b3d94f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad2c3cacce17cfde9a4e5daf1e08c317') in 0.015147 seconds
+  Import took 0.017785 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_55.gif
+  artifactKey: Guid(359445c9a7404dc49bc72d80810393ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_55.gif using Guid(359445c9a7404dc49bc72d80810393ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acdf9130294028d4232b52a734ddda87') in 0.014415 seconds
+  Import took 0.017128 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000454 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_122.gif
+  artifactKey: Guid(aab1277379040c74faa6fe0058faeb9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_122.gif using Guid(aab1277379040c74faa6fe0058faeb9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd36a55c0f68b12c771b0600e4c7ab825') in 0.012269 seconds
+  Import took 0.015268 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_73.gif
+  artifactKey: Guid(c9b1ac3fb6219d743a0d9fcebd73a51b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_73.gif using Guid(c9b1ac3fb6219d743a0d9fcebd73a51b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9d8384b66e491bbfcbea3ec279125b9') in 0.013384 seconds
+  Import took 0.015924 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_112.gif
+  artifactKey: Guid(c14923d80273ef440b10e9ca850a7873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_112.gif using Guid(c14923d80273ef440b10e9ca850a7873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1b7a7279a4421162eab7d4df2ad772e') in 0.014076 seconds
+  Import took 0.016497 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_50.gif
+  artifactKey: Guid(46560d3c0ce0ed14b9648f5d0558d4e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_50.gif using Guid(46560d3c0ce0ed14b9648f5d0558d4e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78ca33c329b55a779d9c9928073478eb') in 0.011861 seconds
+  Import took 0.014230 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_77.gif
+  artifactKey: Guid(ab9cd2eea9f65a446a9021b39fcb7ac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_77.gif using Guid(ab9cd2eea9f65a446a9021b39fcb7ac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c3a974b40afa110bafd4093521e2929') in 0.015981 seconds
+  Import took 0.018436 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_109.gif
+  artifactKey: Guid(47459edfaefdea248a7debbef8612730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_109.gif using Guid(47459edfaefdea248a7debbef8612730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49234385c169b87127f3febc2a698b0c') in 0.016162 seconds
+  Import took 0.018673 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_57.gif
+  artifactKey: Guid(c8d2be70386ec394ba5f6c9c7c84a385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_57.gif using Guid(c8d2be70386ec394ba5f6c9c7c84a385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6be0bfbeedb115263ddddc6baf2eac1d') in 0.010696 seconds
+  Import took 0.013296 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_47.gif
+  artifactKey: Guid(ccf6e92c9cb1bae49bf4e0493a0023fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_47.gif using Guid(ccf6e92c9cb1bae49bf4e0493a0023fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11be7862eb34f4dd12a70ed9445cab2e') in 0.012908 seconds
+  Import took 0.015378 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_120.gif
+  artifactKey: Guid(155d12e4c74b2454b9ded9f83d9f51bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_120.gif using Guid(155d12e4c74b2454b9ded9f83d9f51bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62647b5036f45b6dcbd7408c8b1b7554') in 0.017721 seconds
+  Import took 0.020121 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_87.gif
+  artifactKey: Guid(cf0586a6b892864439dadd84b555d0f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_87.gif using Guid(cf0586a6b892864439dadd84b555d0f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c38749eddd3a59641403c26f661036f') in 0.012527 seconds
+  Import took 0.015020 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_51.gif
+  artifactKey: Guid(064366b23dc9877458d4b4d60a570acc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_51.gif using Guid(064366b23dc9877458d4b4d60a570acc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7516306b77233f3404db592593b4c6e1') in 0.011589 seconds
+  Import took 0.014546 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_119.gif
+  artifactKey: Guid(fdd14ab096352a042a2c24ff4b4ab6e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_119.gif using Guid(fdd14ab096352a042a2c24ff4b4ab6e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fbae9b846a76ff19a6b375f1b3fb219') in 0.015742 seconds
+  Import took 0.018133 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_72.gif
+  artifactKey: Guid(8bbff3d40401dbf4aa402ae6fad6e656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_72.gif using Guid(8bbff3d40401dbf4aa402ae6fad6e656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6518e3a2164e4942ff6acfff68cf703d') in 0.012038 seconds
+  Import took 0.014715 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_76.gif
+  artifactKey: Guid(8b6ca9e73c5d5784fa4d01b9a9d9dd63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_76.gif using Guid(8b6ca9e73c5d5784fa4d01b9a9d9dd63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13299bcb523c4e2dbae5962674009d2e') in 0.013699 seconds
+  Import took 0.017140 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_53.gif
+  artifactKey: Guid(8f98ce5392a17f94c8b06b2247f37c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_53.gif using Guid(8f98ce5392a17f94c8b06b2247f37c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46b11e3bb7d2d12b1adf3fca2dbf987a') in 0.013825 seconds
+  Import took 0.016287 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_118.gif
+  artifactKey: Guid(e2ff2afa5483e5842adeb2da812b391d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_118.gif using Guid(e2ff2afa5483e5842adeb2da812b391d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e07529cbffc72e469e8ed759b3d9e43') in 0.012203 seconds
+  Import took 0.014677 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_33.gif
+  artifactKey: Guid(555035a32892e6746a2c784d392433f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_33.gif using Guid(555035a32892e6746a2c784d392433f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9ac1e0bb8c87b3ca15a935bec52b1ca') in 0.014784 seconds
+  Import took 0.017757 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_65.gif
+  artifactKey: Guid(b6288a3d0adb1fe418e57f8212ad4af8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_65.gif using Guid(b6288a3d0adb1fe418e57f8212ad4af8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ece3b714c30a45a46c6e27c284a6f98a') in 0.015642 seconds
+  Import took 0.018069 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_63.gif
+  artifactKey: Guid(7c525123ccf52a64d9c79907acc4ac5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_63.gif using Guid(7c525123ccf52a64d9c79907acc4ac5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb6f19b5545fcc90a8668ee3d5ae0e61') in 0.012352 seconds
+  Import took 0.014825 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_99.gif
+  artifactKey: Guid(3336c6b201adfe442a3385bff5cce29a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_99.gif using Guid(3336c6b201adfe442a3385bff5cce29a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fb1bc261630e8d8aaa9fdb308538753') in 0.013117 seconds
+  Import took 0.015716 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_52.gif
+  artifactKey: Guid(c14c5948f69e428448d577afb3fc7475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_52.gif using Guid(c14c5948f69e428448d577afb3fc7475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c62e7dcc2602a4fb46871fa8214e3f41') in 0.013762 seconds
+  Import took 0.016277 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_44.gif
+  artifactKey: Guid(2275871f46d08c94a9fb199a08cdebd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_44.gif using Guid(2275871f46d08c94a9fb199a08cdebd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'add5bac8ec9f2e1ed710ace8060ec94c') in 0.014770 seconds
+  Import took 0.017210 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_54.gif
+  artifactKey: Guid(5c6b91b6fd19817419932263037017f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_54.gif using Guid(5c6b91b6fd19817419932263037017f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6f4946ef5270c2d5ffd0c04b4efeccd') in 0.012666 seconds
+  Import took 0.015092 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_69.gif
+  artifactKey: Guid(2454fcc25d2709c449c3edf045458041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_69.gif using Guid(2454fcc25d2709c449c3edf045458041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9862ff815059a602c077c1ab3ce71806') in 0.015756 seconds
+  Import took 0.018246 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_111.gif
+  artifactKey: Guid(880953e2ac9e7d740ac5d2b6d8640a27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_111.gif using Guid(880953e2ac9e7d740ac5d2b6d8640a27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df373fd12ec946def890c4eed1d88d32') in 0.010164 seconds
+  Import took 0.012838 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_110.gif
+  artifactKey: Guid(e0a36dd4956acd14b9cc695c331cb0e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_110.gif using Guid(e0a36dd4956acd14b9cc695c331cb0e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb600179259e2f0e642ed60d4a738ba1') in 0.010667 seconds
+  Import took 0.013262 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_115.gif
+  artifactKey: Guid(53bc58bada85bd74a9fc74ee1efbf432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_115.gif using Guid(53bc58bada85bd74a9fc74ee1efbf432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '516f6cfda8ee3e535186e73a3214efc6') in 0.010267 seconds
+  Import took 0.012766 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_82.gif
+  artifactKey: Guid(756115650ac99a04ebba6e3e398ca73e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_82.gif using Guid(756115650ac99a04ebba6e3e398ca73e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '106fd0383afb45a4fe5efe899f2c5804') in 0.010014 seconds
+  Import took 0.012436 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_35.gif
+  artifactKey: Guid(85b4e168d5a0d9b40b8eb2178fb596f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_35.gif using Guid(85b4e168d5a0d9b40b8eb2178fb596f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daa517febe76fa1d9d9c56d2bea2e336') in 0.009234 seconds
+  Import took 0.011688 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/images/player_70.gif
+  artifactKey: Guid(19552004b6ffb2b44b085ec6fa08d8bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/images/player_70.gif using Guid(19552004b6ffb2b44b085ec6fa08d8bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e635a6d3fe0f0a4c2f0520c07109ca0b') in 0.011147 seconds
+  Import took 0.014218 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.984756 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/idle/idle_1.png
+  artifactKey: Guid(3bdd1994c4aefa74f84d8619c36ee362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/idle/idle_1.png using Guid(3bdd1994c4aefa74f84d8619c36ee362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cb90161c2db0434a4bda8fbb1aa458b') in 0.010504 seconds
+  Import took 0.013492 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/idle/idle_3.png
+  artifactKey: Guid(4620f91db8bb8f746b623baa673118a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/idle/idle_3.png using Guid(4620f91db8bb8f746b623baa673118a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '567b59d34581ae039eb424509bfd72cb') in 0.012575 seconds
+  Import took 0.015166 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/idle/idle_4.png
+  artifactKey: Guid(d7df8d3d214b7d247bb4ac0dfcd78e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/idle/idle_4.png using Guid(d7df8d3d214b7d247bb4ac0dfcd78e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00dfef73dfd6a9ec7808df9042721100') in 0.010085 seconds
+  Import took 0.012799 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/idle/idle_10.png
+  artifactKey: Guid(be5f740e44cbd084383b4b1c05728774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/idle/idle_10.png using Guid(be5f740e44cbd084383b4b1c05728774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '007d869723bb0012c144f76eefcf4923') in 0.010554 seconds
+  Import took 0.013144 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/idle/idle_6.png
+  artifactKey: Guid(7c70d77c560ea1d4ca964c1f947afdd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/idle/idle_6.png using Guid(7c70d77c560ea1d4ca964c1f947afdd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad720e93bb841b1b5280f7b17801d56c') in 0.010991 seconds
+  Import took 0.013535 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/idle/idle_9.png
+  artifactKey: Guid(dddb8b0605dab9c48976f1c2f1595f1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/idle/idle_9.png using Guid(dddb8b0605dab9c48976f1c2f1595f1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0d2fab22cfcb3ec1d5a6000544a083e') in 0.015835 seconds
+  Import took 0.018443 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/idle/idle_2.png
+  artifactKey: Guid(fb7331f13c160c54cb2c18fba2ef689b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/idle/idle_2.png using Guid(fb7331f13c160c54cb2c18fba2ef689b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eda7d8e15e8e818e44e5aabe365d6325') in 0.009692 seconds
+  Import took 0.012252 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000466 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/idle/idle_7.png
+  artifactKey: Guid(6a85b8174981da44eac303c376a17c23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/idle/idle_7.png using Guid(6a85b8174981da44eac303c376a17c23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dc5eda47e6032b2098d1fc85678ffd1') in 0.010105 seconds
+  Import took 0.012637 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/idle/idle_8.png
+  artifactKey: Guid(27402c9593578cf46938cf62afd71a68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/idle/idle_8.png using Guid(27402c9593578cf46938cf62afd71a68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a9c06c006e5d56b35ab9cfcc241dbac') in 0.009377 seconds
+  Import took 0.011829 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/idle/idle_11.png
+  artifactKey: Guid(982b8e002394a9f49a64ce4c2d09319e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/idle/idle_11.png using Guid(982b8e002394a9f49a64ce4c2d09319e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cd0e40120ee6397f919b72bdc24cdbf') in 0.009155 seconds
+  Import took 0.011593 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/idle/idle_5.png
+  artifactKey: Guid(55c1f40ef294c544b9dd50f1423fa42a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/idle/idle_5.png using Guid(55c1f40ef294c544b9dd50f1423fa42a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fed24e1d095d3f9c8a5bba96a21f513b') in 0.009272 seconds
+  Import took 0.011742 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/idle/idle_11.png
+  artifactKey: Guid(982b8e002394a9f49a64ce4c2d09319e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/idle/idle_11.png using Guid(982b8e002394a9f49a64ce4c2d09319e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cd0e40120ee6397f919b72bdc24cdbf') in 0.008533 seconds
+  Import took 0.011065 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.924147 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/idle/idle_5.png
+  artifactKey: Guid(55c1f40ef294c544b9dd50f1423fa42a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/idle/idle_5.png using Guid(55c1f40ef294c544b9dd50f1423fa42a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e23dfdda3caa195ae920302cb40582e') in 0.011342 seconds
+  Import took 0.014520 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004012 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/idle/idle_1.png
+  artifactKey: Guid(3bdd1994c4aefa74f84d8619c36ee362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/idle/idle_1.png using Guid(3bdd1994c4aefa74f84d8619c36ee362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '284952dd6953ea81db1f45e98ec738fc') in 0.012099 seconds
+  Import took 0.015052 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/idle/idle_3.png
+  artifactKey: Guid(4620f91db8bb8f746b623baa673118a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/idle/idle_3.png using Guid(4620f91db8bb8f746b623baa673118a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dca8cb6522baeec6e3bda73b7f740a42') in 0.015977 seconds
+  Import took 0.018717 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/idle/idle_4.png
+  artifactKey: Guid(d7df8d3d214b7d247bb4ac0dfcd78e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/idle/idle_4.png using Guid(d7df8d3d214b7d247bb4ac0dfcd78e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c6125de0dee1bcd0e7be6e478682d7e') in 0.015381 seconds
+  Import took 0.017864 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/idle/idle_10.png
+  artifactKey: Guid(be5f740e44cbd084383b4b1c05728774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/idle/idle_10.png using Guid(be5f740e44cbd084383b4b1c05728774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32d5c1c3064708067b1a4f904757127d') in 0.014136 seconds
+  Import took 0.016644 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/idle/idle_6.png
+  artifactKey: Guid(7c70d77c560ea1d4ca964c1f947afdd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/idle/idle_6.png using Guid(7c70d77c560ea1d4ca964c1f947afdd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '707a24a16b870558dd56201a47db6b8a') in 0.015406 seconds
+  Import took 0.017968 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/idle/idle_9.png
+  artifactKey: Guid(dddb8b0605dab9c48976f1c2f1595f1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/idle/idle_9.png using Guid(dddb8b0605dab9c48976f1c2f1595f1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaa2629c7830901442d5df14b0f6de2d') in 0.013277 seconds
+  Import took 0.015768 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/idle/idle_2.png
+  artifactKey: Guid(fb7331f13c160c54cb2c18fba2ef689b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/idle/idle_2.png using Guid(fb7331f13c160c54cb2c18fba2ef689b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72005cd5c7f64c0435e6bfe7f9669e9f') in 0.015944 seconds
+  Import took 0.018433 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/idle/idle_7.png
+  artifactKey: Guid(6a85b8174981da44eac303c376a17c23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/idle/idle_7.png using Guid(6a85b8174981da44eac303c376a17c23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a36fb0ac42c471ee4e47b1a9d3aef9b2') in 0.014731 seconds
+  Import took 0.017286 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/idle/idle_8.png
+  artifactKey: Guid(27402c9593578cf46938cf62afd71a68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/idle/idle_8.png using Guid(27402c9593578cf46938cf62afd71a68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '031285f44f5ecd063d45d1caaddcb74d') in 0.016529 seconds
+  Import took 0.019243 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Game Assets/artwork/Sprites/player/sonic/idle/idle_11.png
+  artifactKey: Guid(982b8e002394a9f49a64ce4c2d09319e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/artwork/Sprites/player/sonic/idle/idle_11.png using Guid(982b8e002394a9f49a64ce4c2d09319e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25d5a6f615fc02989dfc8b5b85d3e913') in 0.016203 seconds
+  Import took 0.018732 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000880 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.721 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1694 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.3 MB.
+System memory in use after: 82.1 MB.
+
+Unloading 47 unused Assets to reduce memory usage. Loaded Objects now: 2670.
+Total: 2.634900 ms (FindLiveObjects: 0.233900 ms CreateObjectMapping: 0.093400 ms MarkObjects: 1.526300 ms  DeleteObjects: 0.780200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000830 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.826 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1694 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.4 MB.
+System memory in use after: 82.1 MB.
+
+Unloading 47 unused Assets to reduce memory usage. Loaded Objects now: 2673.
+Total: 2.788100 ms (FindLiveObjects: 0.372500 ms CreateObjectMapping: 0.116200 ms MarkObjects: 1.415300 ms  DeleteObjects: 0.882500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000838 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.790 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1694 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.4 MB.
+System memory in use after: 82.1 MB.
+
+Unloading 47 unused Assets to reduce memory usage. Loaded Objects now: 2676.
+Total: 2.642600 ms (FindLiveObjects: 0.268400 ms CreateObjectMapping: 0.105900 ms MarkObjects: 1.481600 ms  DeleteObjects: 0.785400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000918 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.886 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1694 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.5 MB.
+System memory in use after: 82.2 MB.
+
+Unloading 47 unused Assets to reduce memory usage. Loaded Objects now: 2679.
+Total: 3.433900 ms (FindLiveObjects: 0.626500 ms CreateObjectMapping: 0.161100 ms MarkObjects: 1.831300 ms  DeleteObjects: 0.814100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 686.059106 seconds.
+  path: Assets/MyPalette.prefab
+  artifactKey: Guid(077af7e4e4c609a41a34e4486ab9b909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyPalette.prefab using Guid(077af7e4e4c609a41a34e4486ab9b909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5fe189034884d462b1c942d3116e2be') in 0.027734 seconds
+  Import took 0.030720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.327362 seconds.
+  path: Assets/PlayerController.cs
+  artifactKey: Guid(9a3b85c1b11bde844bc6b9a89367b238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlayerController.cs using Guid(9a3b85c1b11bde844bc6b9a89367b238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c448f5c231fa78efb49ce96d51742b6') in 0.007405 seconds
+  Import took 0.010146 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 626.644992 seconds.
+  path: Assets/PlayerController.cs
+  artifactKey: Guid(9a3b85c1b11bde844bc6b9a89367b238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlayerController.cs using Guid(9a3b85c1b11bde844bc6b9a89367b238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa9b0c3c212dc3cfc6d9fcc85ab81fc7') in 0.002114 seconds
+  Import took 0.005656 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000863 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.753 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1651 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 83.7 MB.
+System memory in use after: 81.5 MB.
+
+Unloading 88 unused Assets to reduce memory usage. Loaded Objects now: 2641.
+Total: 2.490300 ms (FindLiveObjects: 0.313000 ms CreateObjectMapping: 0.080200 ms MarkObjects: 1.294600 ms  DeleteObjects: 0.801200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000901 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.763 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1651 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 83.5 MB.
+System memory in use after: 81.3 MB.
+
+Unloading 46 unused Assets to reduce memory usage. Loaded Objects now: 2644.
+Total: 2.441900 ms (FindLiveObjects: 0.208200 ms CreateObjectMapping: 0.078700 ms MarkObjects: 1.377100 ms  DeleteObjects: 0.776800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000823 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.783 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1651 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 83.5 MB.
+System memory in use after: 81.3 MB.
+
+Unloading 46 unused Assets to reduce memory usage. Loaded Objects now: 2647.
+Total: 2.540600 ms (FindLiveObjects: 0.238700 ms CreateObjectMapping: 0.099200 ms MarkObjects: 1.424700 ms  DeleteObjects: 0.776900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000864 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.742 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1651 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 83.5 MB.
+System memory in use after: 81.3 MB.
+
+Unloading 46 unused Assets to reduce memory usage. Loaded Objects now: 2650.
+Total: 2.464100 ms (FindLiveObjects: 0.237000 ms CreateObjectMapping: 0.068200 ms MarkObjects: 1.353000 ms  DeleteObjects: 0.805000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000799 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.720 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1651 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 83.5 MB.
+System memory in use after: 81.3 MB.
+
+Unloading 46 unused Assets to reduce memory usage. Loaded Objects now: 2653.
+Total: 3.299000 ms (FindLiveObjects: 0.335700 ms CreateObjectMapping: 0.144000 ms MarkObjects: 1.712200 ms  DeleteObjects: 1.104800 ms)
+
