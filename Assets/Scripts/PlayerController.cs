@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -21,6 +22,8 @@ public class PlayerController : MonoBehaviour
   [SerializeField] private float jumpforce = 10f;
   [SerializeField] public int gems = 0;
   [SerializeField] public Text gemsText;
+  [SerializeField] public int health = 0;
+  [SerializeField] public Text healthText;
   [SerializeField] public float hurtForce = 10f;
 
   private void Start()
@@ -28,11 +31,17 @@ public class PlayerController : MonoBehaviour
     rb = GetComponent<Rigidbody2D>();
     anim = GetComponent<Animator>();
     coll = GetComponent<Collider2D>();
+
+    healthText.text = health.ToString();
   }
 
   // Update is called once per frame
   private void Update()
   {
+    if (health <= 0)
+    {
+      SceneManager.LoadScene("GameOverScene");
+    }
     if (state != State.hurt)
     {
       PlayerMovement();
@@ -75,6 +84,8 @@ public class PlayerController : MonoBehaviour
         {
           rb.velocity = new Vector2(hurtForce, rb.velocity.y);
         }
+        health -= 1;
+        healthText.text = health.ToString();
       }
     }
   }
@@ -105,6 +116,8 @@ public class PlayerController : MonoBehaviour
     if (coll.IsTouchingLayers(spikes))
     {
       state = State.hurt;
+      health -= 1;
+      healthText.text = health.ToString();
     }
   }
 
