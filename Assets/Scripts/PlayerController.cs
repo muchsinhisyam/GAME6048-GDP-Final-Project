@@ -16,6 +16,7 @@ public class PlayerController : MonoBehaviour
 
   // Inspector variables
   [SerializeField] private LayerMask ground;
+  [SerializeField] private LayerMask spikes;
   [SerializeField] private float speed = 5f;
   [SerializeField] private float jumpforce = 10f;
   [SerializeField] public int gems = 0;
@@ -32,7 +33,7 @@ public class PlayerController : MonoBehaviour
   // Update is called once per frame
   private void Update()
   {
-    if(state != State.hurt)
+    if (state != State.hurt)
     {
       PlayerMovement();
     }
@@ -53,17 +54,20 @@ public class PlayerController : MonoBehaviour
 
   private void OnCollisionEnter2D(Collision2D other)
   {
-    if(other.gameObject.tag == "Enemy")
+    if (other.gameObject.tag == "Enemy")
     {
-      if(state == State.falling)
+      // Rat rat = other.gameObject.GetComponent<Rat>();
+
+      if (state == State.falling)
       {
+        // rat.JumpedOn();
         Destroy(other.gameObject);
         Jump();
       }
       else
       {
         state = State.hurt;
-        if(other.gameObject.transform.position.x > transform.position.x)
+        if (other.gameObject.transform.position.x > transform.position.x)
         {
           rb.velocity = new Vector2(-hurtForce, rb.velocity.y);
         }
@@ -97,9 +101,15 @@ public class PlayerController : MonoBehaviour
     {
       Jump();
     }
+
+    if (coll.IsTouchingLayers(spikes))
+    {
+      state = State.hurt;
+    }
   }
 
-  private void Jump() {
+  private void Jump()
+  {
     rb.velocity = new Vector2(rb.velocity.x, jumpforce);
     state = State.jumping;
   }
@@ -120,9 +130,9 @@ public class PlayerController : MonoBehaviour
         state = State.idle;
       }
     }
-    else if(state == State.hurt)
+    else if (state == State.hurt)
     {
-      if(Mathf.Abs(rb.velocity.x) < .1f)
+      if (Mathf.Abs(rb.velocity.x) < .1f)
       {
         state = State.idle;
       }
