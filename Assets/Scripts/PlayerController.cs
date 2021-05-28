@@ -18,6 +18,7 @@ public class PlayerController : MonoBehaviour
   // Inspector variables
   [SerializeField] private LayerMask ground;
   [SerializeField] private LayerMask spikes;
+  [SerializeField] private LayerMask door;
   [SerializeField] private float speed = 5f;
   [SerializeField] private float jumpforce = 10f;
   [SerializeField] public int gems = 0;
@@ -38,14 +39,26 @@ public class PlayerController : MonoBehaviour
   // Update is called once per frame
   private void Update()
   {
+    // Set Win Scene
+    if (gems >= 5)
+    {
+      if (coll.IsTouchingLayers(door))
+      {
+        SceneManager.LoadScene("WinScene");
+      }
+    }
+
+    // Set Game Over Scene
     if (health <= 0)
     {
       SceneManager.LoadScene("GameOverScene");
     }
+
     if (state != State.hurt)
     {
       PlayerMovement();
     }
+
     AnimationState();
     // Sets animation based on Enumator state
     anim.SetInteger("state", (int)state);
