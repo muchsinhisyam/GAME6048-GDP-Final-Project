@@ -4,66 +4,35 @@ using UnityEngine;
 
 public class EnemyController : MonoBehaviour
 {
-  [SerializeField] private float leftCap;
-  [SerializeField] private float rightCap;
-  [SerializeField] private float jumpLength = 10f;
-  [SerializeField] private float jumpHeight = 15f;
-  [SerializeField] private LayerMask ground;
-  private Collider2D coll;
+  [SerializeField] private Transform[] waypoints;
+  [SerializeField] private float moveSpeed = 2f;
   private Rigidbody2D rb;
-  private bool facingLeft = true;
-
+  private int waypointIndex = 0;
   private void Start()
   {
-    coll = GetComponent<Collider2D>();
-    rb = GetComponent<Rigidbody2D>();
+    transform.position = waypoints[waypointIndex].transform.position;
   }
 
   private void Update()
   {
-    if (facingLeft)
+    Move();
+  }
+
+  private void Move()
+  {
+    if (waypointIndex <= waypoints.Length - 1)
     {
-      // Test to see if we are beyond the leftCap
-      if (transform.position.x > leftCap)
+      transform.position = Vector2.MoveTowards(transform.position, waypoints[waypointIndex].transform.position, moveSpeed * Time.deltaTime);
+      if (transform.position == waypoints[waypointIndex].transform.position)
       {
-        // Make sure sprite is facing right location, otherwise its face the right direction
-        if (transform.localScale.x != 1)
-        {
-          transform.localScale = new Vector3(1, 1);
-        }
-        // Test to see if we are on the ground, then do jump
-        if (coll.IsTouchingLayers(ground))
-        {
-          // Jump
-          rb.velocity = new Vector2(-jumpLength, jumpHeight);
-        }
+        waypointIndex += 1;
       }
-      else
-      {
-        facingLeft = false;
-      }
+    }
+    if (waypointIndex == waypoints.Length)
+    {
+      waypointIndex = 0;
+      // transform.localScale = new Vector2(1, 1);
     }
 
-    else
-    {
-      if (transform.position.x < rightCap)
-      {
-        // Make sure sprite is facing right location, otherwise its face the right direction
-        if (transform.localScale.x != -1)
-        {
-          transform.localScale = new Vector3(-1, 1);
-        }
-        // Test to see if we are on the ground, then do jump
-        if (coll.IsTouchingLayers(ground))
-        {
-          // Jump
-          rb.velocity = new Vector2(jumpLength, jumpHeight);
-        }
-      }
-      else
-      {
-        facingLeft = true;
-      }
-    }
   }
 }

@@ -2,6 +2,7 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - CameraController
+    - EnemyController
     - Frog
     - MainMenuController
     - PlayerController
@@ -29,8 +30,10 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -241,6 +244,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 1514}
     - Class: 114
       Script: {instanceID: 1516}
+    - Class: 114
+      Script: {instanceID: 1992}
     - Class: 114
       Script: {instanceID: 2154}
     - Class: 114
@@ -491,7 +496,7 @@ ScriptsOnlyBuild:
     className: AstarPath
   - hash:
       serializedVersion: 2
-      Hash: 2edf32598a9840851255f6decd3e17ce
+      Hash: 564ad3f3997c0668764f4ce5933f843e
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: EnemyController
